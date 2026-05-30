@@ -2,9 +2,24 @@
 
 Curated custom skills for OpenAI Codex, Claude Code, and other Agent Skills compatible tools.
 
+## Why "kensho"
+
+`kensho` comes from the Japanese term `見性`, often rendered as "seeing one's nature" or "seeing into one's true nature" in Zen contexts.
+
+The name fits this repository for a simple reason: a good skill should not feel like decoration. It should help an agent see a problem more clearly, act with better judgment, and arrive at a cleaner understanding of what matters in the task at hand.
+
+This repository uses the name in that reflective sense:
+- clarity before ceremony
+- insight before repetition
+- better decisions through better framing
+
 ## License
 
-MIT. See [LICENSE](/Users/devpicon/Documents/custom%20skills/LICENSE).
+This project is released under the MIT License. In practice, that means the skills can be used, modified, redistributed, and used commercially, as long as the copyright notice and license text are preserved.
+
+The license is intentionally permissive: the goal of `kensho-skills` is to make useful agent skills easy to reuse and adapt.
+
+See [LICENSE](/Users/devpicon/Documents/custom%20skills/LICENSE).
 
 ## Repository layout
 
@@ -41,6 +56,12 @@ And install this skill with:
 
 ```bash
 npx skills add <owner>/<repo> --skill compose-actions-contract -a codex
+```
+
+For this repository:
+
+```bash
+npx skills add DevPicon/kensho-skills --list
 ```
 
 ## Adding future skills

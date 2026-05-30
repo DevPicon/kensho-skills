@@ -6,9 +6,11 @@ Curated custom skills for OpenAI Codex, Claude Code, and other Agent Skills comp
 
 `kensho` comes from the Japanese term `見性`, often rendered as "seeing one's nature" or "seeing into one's true nature" in Zen contexts.
 
-The name fits this repository for a simple reason: a good skill should not feel like decoration. It should help an agent see a problem more clearly, act with better judgment, and arrive at a cleaner understanding of what matters in the task at hand.
+When I chose the name, the intention was close to this idea: insight, or a deeper kind of understanding that becomes useful in practice.
 
-This repository uses the name in that reflective sense:
+In that sense, `kensho-skills` is not about sounding mystical or ornamental. It is about the moment when a problem becomes clearer, when structure emerges from noise, and when better judgment follows from better understanding.
+
+That is the spirit behind this repository:
 - clarity before ceremony
 - insight before repetition
 - better decisions through better framing

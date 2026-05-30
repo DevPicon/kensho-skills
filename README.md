@@ -8,12 +8,11 @@ MIT. See [LICENSE](/Users/devpicon/Documents/custom%20skills/LICENSE).
 
 ## Repository layout
 
-`kensho-skills` stores multiple skills in a single repository under `.agents/skills/`, so it works well with Codex-compatible projects and is discoverable by `skills.sh`.
+`kensho-skills` stores multiple skills in a single repository using a flat, distribution-oriented layout so each skill lives in its own top-level directory.
 
 ```text
-.agents/skills/
-  compose-actions-contract/
-    SKILL.md
+compose-actions-contract/
+  SKILL.md
 ```
 
 ## Local discovery
@@ -46,7 +45,7 @@ npx skills add <owner>/<repo> --skill compose-actions-contract -a codex
 
 ## Adding future skills
 
-1. Create a new directory under `.agents/skills/<skill-name>/`
+1. Create a new directory at `<skill-name>/`
 2. Add `SKILL.md`
 3. Ensure frontmatter `name` matches the directory name
 4. Verify discovery with `npx skills add . --list`

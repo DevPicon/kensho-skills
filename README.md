@@ -32,43 +32,19 @@ compose-actions-contract/
   SKILL.md
 ```
 
-## Local discovery
+## Discover skills
 
-List skills in this repository:
-
-```bash
-npx skills add . --list
-```
-
-Install a specific local skill into an agent:
-
-```bash
-npx skills add . --skill compose-actions-contract -a codex
-```
-
-## Publishing
-
-After pushing `kensho-skills` to GitHub, others can list its skills with:
-
-```bash
-npx skills add <owner>/<repo> --list
-```
-
-And install this skill with:
-
-```bash
-npx skills add <owner>/<repo> --skill compose-actions-contract -a codex
-```
-
-For this repository:
+To see the skills published in this repository:
 
 ```bash
 npx skills add DevPicon/kensho-skills --list
 ```
 
-## Adding future skills
+## How to contribute
 
-1. Create a new directory at `<skill-name>/`
-2. Add `SKILL.md`
-3. Ensure frontmatter `name` matches the directory name
-4. Verify discovery with `npx skills add . --list`
+Contributions are welcome.
+
+If you want to add a skill or improve an existing one:
+1. Fork the repository
+2. Create or update the skill in its own top-level directory
+3. Open a pull request with a clear description of the change

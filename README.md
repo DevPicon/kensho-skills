@@ -30,7 +30,19 @@ See [LICENSE](/Users/devpicon/Documents/custom%20skills/LICENSE).
 ```text
 compose-actions-contract/
   SKILL.md
+kmp-mvp-task-executor/
+  SKILL.md
+kmp-task-independent-review/
+  SKILL.md
+mobile-litert-validation/
+  SKILL.md
 ```
+
+Published skills:
+- `compose-actions-contract`: Compose and Compose Multiplatform callback-contract refactoring guidance.
+- `kmp-mvp-task-executor`: Scoped implementation workflow for Kotlin Multiplatform MVP tasks.
+- `kmp-task-independent-review`: Independent engineering review workflow for completed KMP tasks.
+- `mobile-litert-validation`: Android and iOS LiteRT-LM validation workflow for on-device AI integrations.
 
 ## Discover skills
 

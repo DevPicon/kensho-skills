@@ -12,6 +12,22 @@ metadata:
 
 Use this skill when the task is to review completed work independently. This skill reviews. It does not implement.
 
+## Activation Criteria
+
+Use this skill when:
+- The primary task is to review completed Kotlin Multiplatform work rather than implement it.
+- The user expects an independent engineering verdict with findings, severity, and closure criteria.
+- The request involves checking scope compliance, regressions, architecture, tests, or documentation consistency.
+- The change spans `commonMain`, `androidMain`, `iosMain`, or their contracts and needs a skeptical senior review.
+
+Do not use this skill when:
+- The main task is to write or modify production code.
+- The main task is runtime validation on devices.
+- The request is broad brainstorming or product ideation.
+- There is no concrete implementation, diff, or completed work to review.
+
+## Resources
+
 Read [references/EXAMPLES.md](references/EXAMPLES.md) when you need verdict examples, severity patterns, or closure criteria wording.
 
 ## Objective

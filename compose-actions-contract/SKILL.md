@@ -26,6 +26,24 @@ Preferred outcome:
 
 This is guidance, not dogma. Keep direct callbacks when that is clearly simpler.
 
+## Activation Criteria
+
+Use this skill when:
+- A Jetpack Compose or Compose Multiplatform API is becoming callback-heavy or hard to scan.
+- A composable, route, or screen contract would become clearer by grouping related callbacks into a domain-specific `Actions` type.
+- The same callback set is forwarded through multiple UI layers.
+- The task is a focused API design or refactor of composable event contracts.
+
+Do not use this skill when:
+- The main task is unrelated to composable API design.
+- A tiny component only has 1-2 obvious callbacks and grouping would add ceremony.
+- The callbacks are unrelated enough that one actions holder would hide intent.
+- The project already has a stronger local pattern that should not be displaced.
+
+## Resources
+
+Read [references/EXAMPLES.md](references/EXAMPLES.md) for quick decision examples, naming guidance, and refactoring patterns that complement this skill.
+
 ## Core philosophy
 
 Prefer this:

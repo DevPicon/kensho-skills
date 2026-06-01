@@ -12,6 +12,22 @@ metadata:
 
 Use this skill to validate a mobile on-device model integration, not to implement the integration from scratch.
 
+## Activation Criteria
+
+Use this skill when:
+- The main task is validating a mobile on-device model integration rather than building it.
+- The request involves LiteRT-LM, Gemma, Gemini Nano, or a similar local mobile model runtime.
+- The user expects validation evidence such as logs, timing, offline behavior, runtime availability, or failure categorization.
+- Real-device behavior, bridge health, or runtime readiness is part of the acceptance criteria.
+
+Do not use this skill when:
+- The main task is to implement the integration from scratch.
+- The main task is a broad KMP feature implementation or refactor.
+- The main task is an architectural review of completed code changes.
+- The request can be satisfied by a static code inspection without runtime validation.
+
+## Resources
+
 Read [references/EXAMPLES.md](references/EXAMPLES.md) for validation report examples, blocked-state patterns, and expected diagnostic wording.
 
 ## Objective

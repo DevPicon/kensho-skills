@@ -44,6 +44,45 @@ Published skills:
 - `kmp-task-independent-review`: Independent engineering review workflow for completed KMP tasks.
 - `mobile-litert-validation`: Android and iOS LiteRT-LM validation workflow for on-device AI integrations.
 
+## Skill structure
+
+Each published skill should make these three parts explicit:
+
+- `Description`: what the skill is for and the problem shape it addresses.
+- `Instructions`: the workflow, rules, boundaries, and expected output for the agent.
+- `Resources`: supporting examples, references, or companion files the agent should read when needed.
+
+In practice, each `SKILL.md` should also make activation boundaries easy to decide:
+
+- `Use this skill when`: concrete triggers that indicate the skill is a good fit.
+- `Do not use this skill when`: nearby cases that should route to a different skill or default agent behavior.
+
+Recommended layout:
+
+```text
+<front matter>
+
+# Skill Name
+
+Short usage statement
+
+## Activation Criteria
+- Use this skill when...
+- Do not use this skill when...
+
+## Resources
+- Read references/EXAMPLES.md for...
+
+## Objective
+...
+
+## Workflow
+...
+
+## Expected Output
+...
+```
+
 ## Discover skills
 
 To see the skills published in this repository:

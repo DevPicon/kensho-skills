@@ -12,18 +12,6 @@ metadata:
 
 Use this skill when the request is to implement a task in a Kotlin Multiplatform codebase, not to brainstorm broadly or perform an independent review.
 
-Read [references/EXAMPLES.md](references/EXAMPLES.md) when the task needs output formatting examples or KMP-specific decision examples.
-
-## Objective
-
-Deliver the requested implementation with strict scope control, commonMain-first reasoning, test coverage, and documentation traceability.
-
-Priorities:
-- Preserve architecture consistency.
-- Prefer deterministic logic over speculative intelligence.
-- Keep Android and iOS behavior aligned unless the task explicitly requires divergence.
-- Leave clear seams for later replacement.
-
 ## Activation Criteria
 
 Use this skill when:
@@ -36,6 +24,20 @@ Do not use this skill when:
 - The main task is architectural review only.
 - The main task is runtime validation on devices only.
 - The request is intentionally open-ended product ideation.
+
+## Resources
+
+Read [references/EXAMPLES.md](references/EXAMPLES.md) when the task needs output formatting examples or KMP-specific decision examples.
+
+## Objective
+
+Deliver the requested implementation with strict scope control, commonMain-first reasoning, test coverage, and documentation traceability.
+
+Priorities:
+- Preserve architecture consistency.
+- Prefer deterministic logic over speculative intelligence.
+- Keep Android and iOS behavior aligned unless the task explicitly requires divergence.
+- Leave clear seams for later replacement.
 
 ## Workflow
 

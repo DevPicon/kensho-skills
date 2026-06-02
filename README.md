@@ -28,7 +28,11 @@ See [LICENSE](/Users/devpicon/Documents/custom%20skills/LICENSE).
 `kensho-skills` stores multiple skills in a single repository using a flat, distribution-oriented layout so each skill lives in its own top-level directory.
 
 ```text
+android-task-independent-review/
+  SKILL.md
 compose-actions-contract/
+  SKILL.md
+ios-task-independent-review/
   SKILL.md
 kmp-mvp-task-executor/
   SKILL.md
@@ -39,7 +43,9 @@ mobile-litert-validation/
 ```
 
 Published skills:
+- `android-task-independent-review`: Independent engineering review workflow specialized for Android platform code and risks.
 - `compose-actions-contract`: Compose and Compose Multiplatform callback-contract refactoring guidance.
+- `ios-task-independent-review`: Independent engineering review workflow specialized for iOS platform code and risks.
 - `kmp-mvp-task-executor`: Scoped implementation workflow for Kotlin Multiplatform MVP tasks.
 - `kmp-task-independent-review`: Independent engineering review workflow for completed KMP tasks.
 - `mobile-litert-validation`: Android and iOS LiteRT-LM validation workflow for on-device AI integrations.
